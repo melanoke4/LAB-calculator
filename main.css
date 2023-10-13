@@ -1,0 +1,48 @@
+body {
+  background-color: #cbc;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+}
+
+.wrapper {
+    width: 400px;
+    display: grid;
+    grid-template-areas: "a a a a";
+    grid-auto-rows: 100px;
+    margin-top: 10em;
+
+}
+
+.wrapper > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid rgb(2, 2, 3);
+    outline: none;
+    background-color: ;
+}
+
+.wrapper > button:hover {
+    background-color: rgba(139, 86, 142, 0.9);
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: rgba(0, 0, 0, .75);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    }
+
+    .span-two {
+        grid-column: span 2;
+        }
+
+        .span-three {
+            grid-column: span 3;
+            }
